@@ -1,0 +1,55 @@
+# =========================================================================
+# Spring Boot & Maven
+# =========================================================================
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# =========================================================================
+# IDE Specifics
+# =========================================================================
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### VS Code ###
+.vscode/
+*.code-workspace
+
+### STS & NetBeans ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# =========================================================================
+# Operating System Files
+# =========================================================================
+.DS_Store
+Thumbs.db
+
+# =========================================================================
+# SECURITY & CONFIGURATION OVERRIDES (CRITICAL)
+# =========================================================================
+# Keeps your local database passwords and keys from leaking to GitHub
+**/src/main/resources/application-dev.yml
+**/src/main/resources/application-local.yml
+
+# For future use if you use environment variable files
+.env
+*.local
+application.yml
